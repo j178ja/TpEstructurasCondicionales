@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>7ffdac4a-9d05-4892-8f56-13fbfde2f856</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>TpEstructurasCondicionales.py</StartupFile>
+    <StartupFile>menu.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,7 +21,38 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="TpEstructurasCondicionales.py" />
+    <Compile Include="AgeCategory\ejercicio4.py" />
+    <Compile Include="AgeVerification\ejercicio1.py" />
+    <Compile Include="CheckEvenNumber\ejercicio3.py" />
+    <Compile Include="EarthquakeRanking\ejercicio9.py" />
+    <Compile Include="GradeChecker\ejercicio2.py" />
+    <Compile Include="menu.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="PasswordVerifier\ejercicio5_6.py" />
+    <Compile Include="Strings\ejercicio7_8.py" />
+    <Compile Include="TimeOfTheYear\ejercicio10.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AgeCategory\Instrucciones.txt" />
+    <Content Include="AgeVerification\Instrucciones.txt" />
+    <Content Include="CheckEvenNumber\Instrucciones.txt" />
+    <Content Include="EarthquakeRanking\Instrucciones.txt" />
+    <Content Include="GradeChecker\Instrucciones.txt" />
+    <Content Include="PasswordVerifier\Instrucciones.txt" />
+    <Content Include="README.txt" />
+    <Content Include="Strings\Instrucciones.txt" />
+    <Content Include="TimeOfTheYear\Instrucciones.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AgeCategory\" />
+    <Folder Include="AgeVerification\" />
+    <Folder Include="CheckEvenNumber\" />
+    <Folder Include="EarthquakeRanking\" />
+    <Folder Include="GradeChecker\" />
+    <Folder Include="PasswordVerifier\" />
+    <Folder Include="Strings\" />
+    <Folder Include="TimeOfTheYear\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
